@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["wanabe"]
   spec.email         = ["s.wanabe@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "tiny library for method overloading"
+  spec.description   = spec.summary
+  spec.homepage      = "https://github.com/wanabe/pattern_overload"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
